@@ -1,0 +1,197 @@
+/* Container for header */
+.header-container {
+  display: flex;
+  align-items: center; /* Vertically align all items */
+  justify-content: space-between; /* Space between the logo, search bar, and navigation */
+  padding: 0 20px; /* Adjust horizontal padding as needed */
+  height: 80px; /* Set a consistent header height */
+  background-color: #f8f8f8; /* Optional: Background color for header */
+}
+
+/* Logo container */
+.header-logo img {
+  height: 50px; /* Adjust the height of the logo */
+  width: auto; /* Maintain aspect ratio */
+}
+.grid {
+  display: grid !important;
+}
+
+/* Search bar container */
+.header-search {
+  flex-grow: 1; /* Expand to take available space */
+  margin: 0 20px; /* Add horizontal spacing between logo and navigation */
+  position: relative; /* For dropdown positioning */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+.search-bar input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-icon {
+  color: #228b22;
+  cursor: pointer;
+}
+
+/* Navigation tabs */
+.header-tabs {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between navigation links */
+}
+
+.header-link {
+  display: flex;
+  align-items: center;
+  color: #228b22;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header-icon {
+  margin-right: 10px; /* Add space between icon and text */
+  margin-left: 10px;
+}
+
+/* Dropdown styles */
+.selectDrop {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  z-index: 10;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+header.fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1000;
+}
+/* Profile Dropdown */
+.profile-container {
+  position: relative;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 150px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 100;
+}
+
+.profile-container:hover .profile-dropdown {
+  display: block;
+}
+
+.profile-dropdown a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.profile-dropdown a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Ensure dropdown does not break layout */
+.header-tabs {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Fixes for spacing */
+.header-link {
+  display: flex;
+  align-items: center;
+  color: #228b22;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header-icon {
+  margin-right: 8px;
+  gap: 10px;
+}
+.profile-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 100%; /* Position dropdown below profile button */
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  left: auto;
+  right: 10px;
+}
+
+.profile-dropdown a {
+  padding: 8px 12px;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+.profile-dropdown a:hover {
+  background-color: #f0f0f0;
+}
+
+.header-link profile-btn {
+  margin-right: 5px;
+}

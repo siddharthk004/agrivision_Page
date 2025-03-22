@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #f5fbf6;
+}
+
+.container-fluid {
+  padding: 0px 25px;
+}
+
+.hd {
+  font-size: 38px;
+  font-weight: 600;
+}

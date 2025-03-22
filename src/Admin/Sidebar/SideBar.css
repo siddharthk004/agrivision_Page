@@ -1,0 +1,8 @@
+.hover-effect {
+    transition: background-color 0.1s ease;
+  }
+  
+  .hover-effect:hover {
+    background-color: #d4d4d8; /* Zinc-300 color */
+  }
+  

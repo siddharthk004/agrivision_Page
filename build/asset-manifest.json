@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AgriVision/static/css/main.9636fd31.css",
+    "main.js": "/AgriVision/static/js/main.2999a9a4.js",
+    "static/media/slider2.jpg": "/AgriVision/static/media/slider2.62cbb4499bc43be6a2ba.jpg",
+    "static/media/slider1.jpg": "/AgriVision/static/media/slider1.08d5fc03318e13388780.jpg",
+    "static/media/fungus.jpg": "/AgriVision/static/media/fungus.650d6f3582de166b581f.jpg",
+    "index.html": "/AgriVision/index.html",
+    "main.9636fd31.css.map": "/AgriVision/static/css/main.9636fd31.css.map",
+    "main.2999a9a4.js.map": "/AgriVision/static/js/main.2999a9a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9636fd31.css",
+    "static/js/main.2999a9a4.js"
+  ]
+}

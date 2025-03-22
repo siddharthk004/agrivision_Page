@@ -1,0 +1,102 @@
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  gap: 20px;
+  padding: 100px 0px;
+}
+
+.contact-page .showText {
+  width: 45%;
+  text-align: center;
+}
+.contact-page .showText .h2 {
+  font-weight: 500;
+}
+
+.contact-page .feedbackForm {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-page .feedbackForm form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-page .feedbackForm input,
+.contact-page .feedbackForm textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-page .feedbackForm textarea {
+  resize: vertical;
+}
+
+.contact-page .feedbackForm button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-page .feedbackForm button:hover {
+  background-color: #218838;
+}
+.contact-page .websites {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  gap: 20px;
+  padding: 10px 0px;
+}
+.websites {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.websites h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.websites p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.social-icon:hover {
+  opacity: 0.8;
+}

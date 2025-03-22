@@ -1,0 +1,125 @@
+/* Home Section */
+.homeProducts {
+  padding: 4rem 0;
+  margin-bottom: 8rem;
+  min-height: 700px;
+  width: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(280px, 1fr)
+  ); /* Creates a responsive grid */
+  gap: 1.5rem; /* Spacing between products */
+  width: 100%;
+  justify-content: center;
+}
+
+/* Newsletter Section */
+.newsLetterSection {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.newsLetterSection .container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.newsLetterSection .box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.newsLetterSection h2 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.newsLetterSection .newsletter-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsLetterSection .form-control {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.newsLetterSection .form-control:focus {
+  border-color: #88b855;
+  box-shadow: 0 0 4px rgb(61, 143, 71);
+}
+
+.newsLetterSection .btn-primary {
+  background-color: #88b855;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 40%;
+  transition: background-color 0.3s ease;
+}
+
+.newsLetterSection .btn-primary:hover {
+  background-color: rgb(61, 143, 71);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .newsLetterSection h2 {
+    font-size: 20px;
+  }
+
+  .newsLetterSection .form-control {
+    width: 100%;
+  }
+
+  .newsLetterSection .btn-primary {
+    width: 100%;
+  }
+}
+.homeSliderWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.homeSliderWrapper > * {
+  max-width: 80%; /* Adjust as needed */
+  width: 100%;
+}
